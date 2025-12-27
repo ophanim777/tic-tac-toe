@@ -20,5 +20,7 @@ const Player = (name, mark) => {
 const GameController = (() => {
     let player1 = Player("Player 1", "X");
     let player2 = Player("Player 2", "O");
+    let currentPlayer = player1;
+    let gameOver = false;
 
 })();
