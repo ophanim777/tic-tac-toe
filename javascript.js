@@ -6,4 +6,8 @@ const Gameboard = (() => {
     board[index] = mark;
     return true;
   };
+  const resetBoard = () => {
+  board = ["", "", "", "", "", "", "", "", ""];
+};
+
 })();
