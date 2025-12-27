@@ -3,6 +3,8 @@ const Gameboard = (() => {
   const getBoard = () => board;
   const placeMark = (index, mark) => {
     if (board[index] !== "") return false;
+    board[index] = mark;
+    return true;
 
   }
 })();
