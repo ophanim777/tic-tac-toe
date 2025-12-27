@@ -33,4 +33,11 @@ const switchPlayer = () => {
   currentPlayer = currentPlayer === player1 ? player2 : player1;
 };
 
+const checkWinner = () => {
+    const board = Gameboard.getBoard();
+    return winningCombos.some(combo =>
+      combo.every(index => board[index] === currentPlayer.mark)
+    );
+  };
+
 })();
