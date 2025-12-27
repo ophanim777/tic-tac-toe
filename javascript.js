@@ -5,6 +5,5 @@ const Gameboard = (() => {
     if (board[index] !== "") return false;
     board[index] = mark;
     return true;
-
-  }
+  };
 })();
