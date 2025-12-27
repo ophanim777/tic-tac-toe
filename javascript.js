@@ -9,5 +9,6 @@ const Gameboard = (() => {
   const resetBoard = () => {
   board = ["", "", "", "", "", "", "", "", ""];
 };
+  return { getBoard, placeMark, resetBoard };
 
 })();
