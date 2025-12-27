@@ -12,3 +12,7 @@ const Gameboard = (() => {
   return { getBoard, placeMark, resetBoard };
 
 })();
+
+const Player = (name, mark) => {
+  return { name, mark };
+};
