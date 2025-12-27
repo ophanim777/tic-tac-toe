@@ -40,4 +40,8 @@ const checkWinner = () => {
     );
   };
 
+  const checkTie = () => {
+    return Gameboard.getBoard().every(cell => cell !== "");
+  };
+
 })();
