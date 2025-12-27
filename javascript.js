@@ -16,3 +16,6 @@ const Gameboard = (() => {
 const Player = (name, mark) => {
   return { name, mark };
 };
+
+const GameController = (() => {
+})();
