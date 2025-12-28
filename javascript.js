@@ -58,5 +58,12 @@ const playRound = (index) => {
       return;
     }
 
+    if (checkTie()) {
+      console.log("It's a tie!");
+      gameOver = true;
+      return;
+    }
+
+
 }
 })();
