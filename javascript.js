@@ -74,4 +74,6 @@ const playRound = (index) => {
     gameOver = false;
   };
 
+  return { playRound, restart };
+
 })();
