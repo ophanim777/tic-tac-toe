@@ -77,3 +77,7 @@ const playRound = (index) => {
   return { playRound, restart };
 
 })();
+
+const DisplayController = (() => {
+  const squares = document.querySelectorAll(".square");
+})();
