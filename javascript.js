@@ -52,5 +52,11 @@ const playRound = (index) => {
       return;
     }
 
+    if (checkWin()) {
+      console.log(`${currentPlayer.name} wins!`);
+      gameOver = true;
+      return;
+    }
+
 }
 })();
