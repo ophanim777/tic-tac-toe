@@ -64,6 +64,8 @@ const playRound = (index) => {
       return;
     }
 
+    currentPlayer =
+      currentPlayer === player1 ? player2 : player1;
+  };
 
-}
 })();
