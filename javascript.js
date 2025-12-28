@@ -44,4 +44,8 @@ const checkWinner = () => {
     return Gameboard.getBoard().every(cell => cell !== "");
   };
 
+const playRound = (index) => {
+    if (gameOver) return;
+    
+}
 })();
