@@ -68,4 +68,10 @@ const playRound = (index) => {
       currentPlayer === player1 ? player2 : player1;
   };
 
+  const restart = () => {
+    Gameboard.reset();
+    currentPlayer = player1;
+    gameOver = false;
+  };
+
 })();
