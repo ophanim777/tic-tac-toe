@@ -46,6 +46,11 @@ const checkWinner = () => {
 
 const playRound = (index) => {
     if (gameOver) return;
-    
+
+    if (!Gameboard.setMark(index, currentPlayer.mark)) {
+      console.log("Spot already filled!");
+      return;
+    }
+
 }
 })();
