@@ -80,4 +80,11 @@ const playRound = (index) => {
 
 const DisplayController = (() => {
   const squares = document.querySelectorAll(".square");
+
+   const render = () => {
+    const board = Gameboard.getBoard();
+    squares.forEach((square, index) => {
+      square.textContent = board[index];
+    });
+  };
 })();
