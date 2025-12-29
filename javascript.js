@@ -87,9 +87,10 @@ const DisplayController = (() => {
       square.textContent = board[index];
     });
   };
-      squares.forEach((square, index) => {
+     squares.forEach((square, index) => {
     square.addEventListener("click", () => {
-
+      GameController.playRound(index);
+      render();
+    });
   });
-};
 })();
