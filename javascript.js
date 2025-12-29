@@ -87,4 +87,9 @@ const DisplayController = (() => {
       square.textContent = board[index];
     });
   };
+      squares.forEach((square, index) => {
+    square.addEventListener("click", () => {
+
+  });
+};
 })();
