@@ -93,4 +93,5 @@ const DisplayController = (() => {
       render();
     });
   });
+   return { render };
 })();
